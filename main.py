@@ -5,12 +5,11 @@ import time
 import logging
 from datetime import datetime
 
-load_dotenv()
-#OPENAI.api_key = os.environ.get("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")
+load_dotenv()l
 # defaults to getting the key using os.environ.get("OPENAI_API_KEY")
 # if you saved the key under a different environment variable name, you can do something like:
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "Your OpenAI API KEY"
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"),
 )
 
